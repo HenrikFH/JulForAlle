@@ -1,0 +1,99 @@
+body {
+	background-color: lightgrey;
+}
+
+.top {
+	background-color: lightgrey;
+	height: 50px;
+	width: 100%
+}
+
+textarea {
+   resize: none;
+}
+.box1 {
+  
+position: absolute; top: 20%; left: 5%;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+.box2 {
+
+	width: 55%;
+  height: 20%;
+	float: right;
+  text-align: left;
+}
+
+.box3 {
+	position: absolute; top: 10%; left: 25%;
+	padding: 3%;
+	width: 50%;
+	height: 700px;
+	background-color: #363E45;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	color: #e2be00;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+  color: black;
+
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h5{
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.button2 {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 1% 5%;
+    font-family: 'Oswald', sans-serif;
+	 font-size: 3%;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 100%;
+    margin: 0.3% 0.5%;
+    cursor: pointer;
+    width: 54%;
+    float: right;
+}
+
+.button:hover{
+	background-color: #e2be00;
+	color: grey;
+}
+
+.button2:hover{
+	background-color: red;
+	color: white;
+}
+@media only screen and (max-width: 600px){
+  body{
+    background-color: lightgrey;
+
+  }
+}
