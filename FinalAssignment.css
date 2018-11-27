@@ -13,6 +13,19 @@
 	margin: 5%;
 }
 
+.kontaktOss{
+	padding-top: 5%;
+	color: black;
+}
+
+.kontaktText{
+	color:black;
+}
+
+.kontaktLink{
+	color: black;
+}
+
 .topnav {
 	background-color: rgba(48, 16, 125, 0.9);
 	overflow: hidden;
