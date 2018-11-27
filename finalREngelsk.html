@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="FinalAssignment.css" media="all" rel="stylesheet" type="text/css">
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
-	<title>Registrering</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.css">
 	<link rel="stylesheet" type="text/css" href="finalR.css" />
@@ -37,29 +36,28 @@
 	<div class="box3">
 
 		
-		<h3>REGISTRER DEG HER: </h3>
+		<h3>REGISTER HERE: </h3>
 
 		<div class="box1">
-			<strong> <h2> Her kan du registrere deg forså velg kategori av hvem du vil feire jul sammen med!
-			 Legg til Navn og mailadresse og trykk "Godkjenn".</h2>  </strong>
+			<strong> <h2> Choose the category of who you want to celebrate Christmas with!
+						Type in "Name and Email address and press "Approve".</h2>  </strong>
 		</div>
 
-		<form id="regVarer">	
-
-			<textarea  class="box2" id="inpVarenavn" type="text" required placeholder="Navn"></textarea>
-			<textarea class="box2" id="inpPris" type="number" required placeholder="Mailadresse"></textarea>
-			<textarea class="box2" id="inpVarenavn" type="text" required placeholder="Bekreft mailadresse"></textarea>
+		<form id="regVarer">			
+			<textarea  class="box2" id="inpVarenavn" type="text" required placeholder="Name"></textarea>
+			<textarea class="box2" id="inpPris" type="number" required placeholder="Email-adress"></textarea>
+			<textarea class="box2" id="inpVarenavn" type="text" required placeholder="Approve email-adress"></textarea>
 			<select class="box2" id="inpKategori">
-				<option>Velg kategori</option>
-				<option value="stue">Hjemme hos noen</option>
-				<option value="soverom">Lokalet</option>
-				<option value="kjøkken">Annet</option>
+				<option>Choose category</option>
+				<option value="stue">At home with somebody </option>
+				<option value="soverom">Venue</option>
+				<option value="kjøkken">Something else</option>
 			</select>
 			
 			<br>
 
 			<button class="button2" onclick="validation();">
-			GODKJENN
+			Approve
 			</button>
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
@@ -68,7 +66,7 @@
 			function validation()
 			{
 
-				swal("Fullført!", "All informasjonen blir sendt på mail!:-)", "success");
+				swal("Complete!", "All information will be sent to your email! :-)", "success");
 
 			}
 		</script>	
