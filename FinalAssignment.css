@@ -114,31 +114,32 @@
 	height: 60%;
 	position: absolute;
 	right: 20%;
-	top: 115%;
+	top: 130%;
 }
 .julekulerød {
 	height: 50%;
 	position: absolute;
 	right: 20%;
 }
+
+
 .folksammen {
 	height: 30%;
 	position: absolute;
-	top: 298%;
 	z-index: -3;
+	left: 25%;
 }
 .mann2 {
 	height: 30%;
 	position: absolute;
-	left: 20%;
-	top: 299%;
+	
 	z-index: -3;
 }
 .tomennesker {
-	height: 35%;
+	height: 30%;
 	position: absolute;
 	left: 50%;
-	top: 292.5%;
+	
 }
 @media (max-width: 1350px) {
 	/*.overskrift {
@@ -242,21 +243,18 @@
 	.folksammen {
 	height: 30%;
 	position: absolute;
-	top: 302%;
 	z-index: -3;
 	}
 	.mann2 {
 	height: 30%;
 	position: absolute;
-	left: 25%;
-	top: 303%;
+	
 	z-index: -3;
 }
 	.tomennesker {
-		height: 25%;
+		height: 30%;
 		position: absolute;
-		left: 45%;
-		top: 307%;
+		
 	}
 }
 @media(max-width: 1000px) {
@@ -361,21 +359,17 @@
 		.folksammen {
 	height: 30%;
 	position: absolute;
-	top: 302%;
 	z-index: -3;
 	}
 	.mann2 {
 	height: 30%;
 	position: absolute;
-	left: 25%;
-	top: 303%;
+	
 	z-index: -3;
 }
 	.tomennesker {
-		height: 25%;
+		height: 30%;
 		position: absolute;
-		left: 45%;
-		top: 307%;
 	}
 }
 @media(max-width: 900px) {
@@ -484,15 +478,12 @@
 	.folksammen {
 		height: 30%;
 		position: absolute;
-		float: left;
-		top: 283%;
+		left: 60%;
 		z-index: -3;
 	}
 	.mann2 {
 		height: 30%;
 		position: absolute;
-		top: 285%;
-		left: 50%;
 		z-index: -3;
 	}
 	.tomennesker {
