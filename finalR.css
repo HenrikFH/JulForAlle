@@ -8,6 +8,36 @@ body {
 	width: 100%
 }
 
+
+.topnav {
+	background-color: rgba(48, 16, 125, 0.9);
+	overflow: hidden;
+	position: fixed;
+	width: 99%;
+	z-index: 1;
+	
+}
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	border: 1px solid white;
+	cursor: pointer;
+	outline-color: red;
+}
+.topnav a:hover {
+	background-color: #ddd;
+	color: black;
+}
+.topnav a.active {
+	background-color: rgba(55, 1, 181, 0.9);
+	color: white;
+}
+
+
 textarea {
    resize: none;
 }
@@ -165,6 +195,31 @@ h5{
 	background-color: lightgrey;
 }
 
+.topnav {
+		background-color: rgba(48, 16, 125, 0.9);
+		overflow: hidden;
+		position: fixed;
+		top: 1%;
+		width: 98%;
+		z-index: 1;
+	}
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 14px;
+		text-decoration: none;
+		font-size: 15px;
+	}
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+	.topnav a.active {
+		background-color: rgba(55, 1, 181, 0.9);
+		color: white;
+	}
+
 .top {
 	background-color: lightgrey;
 	height: 313%;
@@ -213,7 +268,7 @@ h1 {
 	z-index: -3;
 }
 #OmOss{
-	margin-top: 20%;
+	margin-top: 5%;
 }
 
 h2 {
@@ -283,6 +338,31 @@ h5{
 	background-color: lightgrey;
 }
 
+.topnav {
+		background-color: rgba(48, 16, 125, 0.9);
+		overflow: hidden;
+		position: fixed;
+		top: 1%;
+		width: 98%;
+		z-index: 1;
+	}
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 14px 8px;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+	.topnav a.active {
+		background-color: rgba(55, 1, 181, 0.9);
+		color: white;
+	}
+
 .top {
 	background-color: lightgrey;
 	height: 313%;
@@ -339,7 +419,7 @@ h1 {
 	z-index: -3;
 }
 #OmOss{
-	margin-top: 20%;
+	margin-top: 10%;
 }
 
 h2 {
@@ -409,6 +489,32 @@ h5{
 	background-color: lightgrey;
 }
 
+.topnav {
+		background-color: rgba(48, 16, 125, 0.9);
+		overflow: hidden;
+		position: fixed;
+		top: 1%;
+		width: 98%;
+		z-index: 1;
+	}
+	.topnav a {
+		float: left;
+		color: #f2f2f2;
+		text-align: center;
+		padding: 15px 4.3px;
+		text-decoration: none;
+		font-size: 12px;
+	}
+	.topnav a:hover {
+		background-color: #ddd;
+		color: black;
+	}
+	.topnav a.active {
+		background-color: rgba(55, 1, 181, 0.9);
+		color: white;
+	}
+	
+
 .top {
 	background-color: lightgrey;
 	height: 313%;
@@ -465,7 +571,7 @@ h1 {
 	z-index: -3;
 }
 #OmOss{
-	margin-top: 15%;
+	margin-top: 10%;
 }
 
 h2 {
