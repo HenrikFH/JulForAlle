@@ -1,33 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
-	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Registrering</title>
 	<meta charset="utf-8" />
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation-flex.css">
 	<link rel="stylesheet" type="text/css" href="finalR.css" />
 	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="FinalAssignment.css">
 	
 	<link rel="stylesheet" type="text/css" href="sweetalert.css">
 
 </head>
+
 <body id="hjem" style="background-color: lightgrey;">
-	<div class="topnav" tabindex="0":focus>
-		<a  class="active" href="FinalAssignment.html" title="Gå tilbake til forsiden.">Hjem</a>
-		 <a href="FinalAssignment.html" title="Trykk her for å lese om oss.">Om oss</a>
-		  <a href="FinalAssignment.html" title="Trykk her for å lese om vår ide.">Vår ide</a>
-		   <a target="blank" href="kontakt.html" title="Trykk her for å komme til kontaktsiden.">Kontakt</a>
-		    <a href="#registrering" target="blank" title="Trykk her for å registrere.">Registrering</a>
-		    <div style="float: right;">
-		    <a href = "simple.html"> Enkel Versjon</a>
-			<a href="finalREngelsk.html">English</a>
-			
-			</div>
-		</div>
-		</div>
-	</div>
+  <div class="topnav" tabindex="0":focus>
+    <a  class="active" href="finalassignmentengelsk.html" title="Gå tilbake til forsiden.">Hjem</a>
+     <a href="finalassignmentengelsk.html" title="Trykk her for å lese om oss.">Om oss</a>
+      <a href="finalassignmentengelsk.html" title="Trykk her for å lese om vår ide.">Vår ide</a>
+       <a target="blank" href="contact.html" title="Trykk her for å komme til kontaktsiden.">Kontakt</a>
+        <div style="float: right;">
+        <a href = "simple.html"> Enkel side</a>
+      <a href="finalREngelsk.html">English</a>
+      
+      </div>
+    </div>
 
 	<div class="top"></div>
 	
@@ -49,32 +45,34 @@
 		var Varer = tekstDatabase.ref("Varer"); 
 	</script>
 	
-	<div class="box3">
+
 
 		
-		<h3>REGISTRER DEG HER: </h3>
 
-		<div class="box1">
-			<strong> <p "> Her kan du registrere deg forså velg kategori av hvem du vil feire jul sammen med!
-			 Legg til Navn og mailadresse og trykk "Godkjenn".</p>  </strong>
-		</div>
+		<div class="box3">
+        <h1 id="OmOss" style="z-index: 3;">Registrer</h1>
+		<p  class="posisjonforteksten">Her kan du registrere deg forså å velge en kategori av hvem du vil feire jul sammen med! Legg til Navn og mailadresse og trykk "Godkjenn". 
+		<br><br>
+		Skriv gjerne til oss hvordan du har opplevd dette. Kontakt oss gjerne for eventuelle spørsmål eller tilbakemeldinger.
+		</p>
 
-		<form id="regVarer">	
-
-			<textarea  class="box2" id="inpVarenavn" type="text" required placeholder="Navn"></textarea>
-			<textarea class="box2" id="inpPris" type="number" required placeholder="Mailadresse"></textarea>
-			<textarea class="box2" id="inpVarenavn" type="text" required placeholder="Bekreft mailadresse"></textarea>
+		
+		<div class="skrivinn">
+		<form id="regVarer">			
+			<textarea  class="box2" id="inpVarenavn" type="text" required placeholder="Name"></textarea>
+			<textarea class="box2" id="inpPris" type="number" required placeholder="Email-adress"></textarea>
+			<textarea class="box2" id="inpVarenavn" type="text" required placeholder="Approve email-adress"></textarea>
 			<select class="box2" id="inpKategori">
 				<option>Velg kategori</option>
 				<option value="stue">Hjemme hos noen</option>
-				<option value="soverom">Lokalet</option>
+				<option value="soverom">Vert</option>
 				<option value="kjøkken">Annet</option>
 			</select>
 			
 			<br>
 
 			<button class="button2" onclick="validation();">
-			GODKJENN
+			Godkjenn
 			</button>
 
 			<script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
@@ -83,14 +81,14 @@
 			function validation()
 			{
 
-				swal("Fullført!", "All informasjonen blir sendt på mail!:-)", "success");
+				swal("Godkjent!", "All informasjon blir sendt til deg på E-mail! :-)", "success");
 
 			}
 		</script>	
 
 
 		</form>
-
+		</div>
 	</div>
 </a>
 
