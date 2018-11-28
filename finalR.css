@@ -11,9 +11,13 @@ body {
 textarea {
    resize: none;
 }
+.skrivinn{
+	margin-top: 20%;
+}
+
 .box1 {
   
-position: absolute; top: 22%; left: 5%;
+position: absolute; top: 85%; left: 5%;
 	width: 30%;
 	float: left;
 	text-align: left;
@@ -28,10 +32,11 @@ position: absolute; top: 22%; left: 5%;
 }
 
 .box3 {
-	position: absolute; top: 15%; left: 25%;
+	position: absolute; top: 10%; left: 25%;
 	padding: 3%;
 	width: 50%;
-	height: 35.750em;
+	height: 34em;
+	
 	background-color: #363E45;
 	text-align: center;
 }
@@ -42,9 +47,15 @@ p{
 }
 
 h1 {
+	position: absolute; top: -2%; left: 46%;
 	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	color: #e2be00;
+	font-size: 425%;
+	color: grey;
+	z-index: -3;
+}
+#OmOss{
+	margin: 5%;
+
 }
 
 h2 {
@@ -56,7 +67,8 @@ h2 {
 h3 {
   font-family: 'Oswald', sans-serif;
 	font-size: 60px;
-  color: black;
+  	color: black;
+
 
 }
 
@@ -97,10 +109,58 @@ h5{
 	color: white;
 }
 
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	float: left;
+	max-width: 200px;
+	max-height: 900px;
+	font-size: 19px;
+
+}
+
+/*
+.textposisjon {
+		border: solid;
+		padding: 10px;
+		position: absolute;
+		left: 5%;
+		right: 50%
+	}
+*/
+/*
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	left: 1%;
+	right: 40%
+}
+*/
+/*
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	left: 5%;
+	right: 60%
+}
+
+/*
+.textposisjon {
+		border: solid;
+		padding: 10px;
+		position: absolute;
+		left: 1%;
+		right: 40%
+	}
+*/
 
 
 
-@media (max-width: 1240px; max-height: 900px;){
+
+@media (max-width: 1000px){
 	body {
 	background-color: lightgrey;
 }
@@ -116,7 +176,7 @@ textarea {
 }
 .box1 {
   
-position: absolute; top: 25%; left: 5%;
+position: absolute; top: 85%; left: 5%;
 	width: 30%;
 	float: left;
 	text-align: left;
@@ -131,36 +191,42 @@ position: absolute; top: 25%; left: 5%;
 }
 
 .box3 {
-	position: absolute; top: 15%; left: 25%;
+	position: absolute; top: 23%; left: 15%;
 	padding: 3%;
-	font-size: 40px;
-	width: 50%;
-	height: 35.750em;
+	width: 70%;
+	height: 32em;
+	
 	background-color: #363E45;
 	text-align: center;
 }
-p {
-	font-size: 25px;
-	font-family: 'Oswald' , sans-serif;
-	
+p{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+
 }
 
 h1 {
+	position: absolute; top: -2%; left: 45%;
 	font-family: 'Oswald', sans-serif;
-	font-size: 60px;
-	color: #e2be00;
+	font-size: 410%;
+	color: grey;
+	z-index: -3;
+}
+#OmOss{
+	margin-top: 20%;
 }
 
 h2 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 20px;
+	font-size: 30px;
 	font-style: bold;
 }
 
 h3 {
   font-family: 'Oswald', sans-serif;
 	font-size: 60px;
-  color: black;
+  	color: black;
+
 
 }
 
@@ -201,4 +267,265 @@ h5{
 	color: white;
 }
 
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	float: left;
+	max-width: 180px;
+	max-height: 900px;
+	font-size: 19px;
+
+}
+
+@media (max-width: 700px){
+	body {
+	background-color: lightgrey;
+}
+
+.top {
+	background-color: lightgrey;
+	height: 313%;
+	width: 100%
+}
+
+textarea {
+   resize: none;
+}
+.skrivinn{
+	margin-top: 40%;
+	position: absolute; right: 20%;
+	
+	
+}
+
+.box1 {
+  
+position: absolute; top: 85%; left: 5%;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+.box2 {
+
+	width: 70%;
+  	height: 20%;
+	float: right;
+  	text-align: left;
+}
+
+.box3 {
+	position: absolute; top: 23%; left: 15%;
+	padding: 3%;
+	width: 70%;
+	height: 32em;
+	
+	background-color: #363E45;
+	text-align: center;
+}
+p{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	visibility: hidden;
+
+}
+
+h1 {
+	position: absolute; top: 8%; left: 25%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	color: grey;
+	z-index: -3;
+}
+#OmOss{
+	margin-top: 20%;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+  	color: black;
+
+
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h5{
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.button2 {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 1% 5%;
+    font-family: 'Oswald', sans-serif;
+	 font-size: 3%;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 100%;
+    margin: 0.3% 0.5%;
+    cursor: pointer;
+    width: 70%;
+    float: right;
+}
+
+.button:hover{
+	background-color: #e2be00;
+	color: grey;
+}
+
+.button2:hover{
+	background-color: red;
+	color: white;
+}
+
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	margin-top: 15%;
+	float: left;
+	max-width: 1px;
+	max-height: 2000px;
+	font-size: 15px;
+}
+
+@media (max-width: 400px){
+	body {
+	background-color: lightgrey;
+}
+
+.top {
+	background-color: lightgrey;
+	height: 313%;
+	width: 100%
+}
+
+textarea {
+   resize: none;
+}
+.skrivinn{
+	margin-top: 60%;
+	position: absolute; right: 20%;
+	
+	
+}
+
+.box1 {
+  
+position: absolute; top: 85%; left: 5%;
+	width: 30%;
+	float: left;
+	text-align: left;
+}
+
+.box2 {
+
+	width: 70%;
+  	height: 20%;
+	float: right;
+  	text-align: left;
+}
+
+.box3 {
+	position: absolute; top: 23%; left: 15%;
+	padding: 3%;
+	width: 70%;
+	height: 32em;
+	
+	background-color: #363E45;
+	text-align: center;
+}
+p{
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+	visibility: hidden;
+
+}
+
+h1 {
+	position: absolute; top: 10%; left: 25%;
+	font-family: 'Oswald', sans-serif;
+	font-size: 40px;
+	color: grey;
+	z-index: -3;
+}
+#OmOss{
+	margin-top: 15%;
+}
+
+h2 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h3 {
+  font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+  	color: black;
+
+
+}
+
+h4{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: bold;
+}
+
+h5{
+	font-size: 15px;
+	font-family: verdana;
+}
+
+.button2 {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 1% 5%;
+    font-family: 'Oswald', sans-serif;
+	 font-size: 3%;
+    text-align: center;
+    text-decoration: bold;
+    font-size: 100%;
+    margin: 0.3% 0.5%;
+    cursor: pointer;
+    width: 70%;
+    float: right;
+}
+
+.button:hover{
+	background-color: #e2be00;
+	color: grey;
+}
+
+.button2:hover{
+	background-color: red;
+	color: white;
+}
+
+.posisjonforteksten {
+	border: solid;
+	padding: 1px;
+	position: absolute;
+	margin-top: 15%;
+	float: left;
+	max-width: 1px;
+	max-height: 2000px;
+	font-size: 15px;
 }
